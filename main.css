@@ -1,0 +1,12 @@
+html { height: 100%; }
+
+body
+{
+	background: #fff;
+	font-family: 'Sorts Mill Goudy', serif;
+	line-height: 2;
+	padding: 0;
+  margin: 0;
+  text-align: center;
+}
+

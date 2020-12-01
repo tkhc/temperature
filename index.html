@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature and Length Converter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <form>
+  <section class="form-group">
+    <h1>Convert Celcius to Fahrenhet and Back</h1>
+    <span>Celsius</span>
+    <input id="c" type="text" onkeyup="convert('C')" aria-label="value">
+    <span>&xharr;</span>
+    <input id="f" type="text" onkeyup="convert('F')" aria-label="value">
+    <span>Fahrenheit</span>
+  </section>
+<br>
+<section class="form-group">
+    <h1>Convert Miles to Feet and Back</h1>
+    <span>Miles</span>
+    <input id="milesValue" type="text" onkeyup="toFeet()" aria-label="value">
+    <span>&xharr;</span>
+    <input id="feetValue" type="text" onkeyup="toMiles()" aria-label="value">
+    <span>Feet</span>
+    <p id="msg"></p>
+  </section>
+  </form>  
+    <script src="convert.js"></script>
+</body>
+
+</html>
