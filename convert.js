@@ -1,3 +1,4 @@
+//temperature converter
 const convert = (degree) => {
   var x;
   if (degree == "C") {
@@ -9,6 +10,7 @@ const convert = (degree) => {
   }
 };
 
+//miles and feet converter
 const toFeet = () =>
   (document.getElementById("feetValue").value =
     document.getElementById("milesValue").value * 5280);
