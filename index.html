@@ -11,18 +11,21 @@
 <body>
   <form>
   <section class="form-group">
-    <h1>Convert Celcius to Fahrenhet and Back</h1>
-    <span>Celsius</span>
-    <input id="c" type="text" onkeyup="convert('C')" aria-label="value">
-    <span>&xharr;</span>
-    <input id="f" type="text" onkeyup="convert('F')" aria-label="value">
+    <h1>Convert temperature measurements instantly</h1>
+    <input id="inputFahrenheit" type="number" oninput="converter(this.id,this.value)" aria-label="value">
     <span>Fahrenheit</span>
+    <span>&xharr;</span>
+    <input id="inputCelsius" type="number" oninput="converter(this.id,this.value)" aria-label="value">
+    <span>Celsius</span>
+    <span>&xharr;</span>
+    <input id="inputKelvin" type="number" oninput="converter(this.id,this.value)" aria-label="value">
+    <span>Kelvin</span>
   </section>
 <br>
 <section class="form-group">
-    <h1>Convert Miles to Feet and Back</h1>
-    <span>Miles</span>
+    <h1>Convert miles to feet instantly</h1>
     <input id="milesValue" type="text" onkeyup="toFeet()" aria-label="value">
+    <span>Miles</span>
     <span>&xharr;</span>
     <input id="feetValue" type="text" onkeyup="toMiles()" aria-label="value">
     <span>Feet</span>
